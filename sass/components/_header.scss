@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+
+    &__logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__navigation {
+        list-style: none;
+        display: flex;      
+    }
+
+    &__item {
+        margin-left: 3rem;
+
+        a {
+            text-decoration: none;
+            color: $dark-greyish-blue;
+
+            &:hover {
+                color: $color-red;
+            }
+        }
+    }
+}
